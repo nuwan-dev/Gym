@@ -76,7 +76,7 @@
   z-index: 999;
 }
 .gym-mb-top-nav-container .mb-nav-sub .mb-tp-nav-tgl-btn {
-  background-image: url("assets/icons/menu.png");
+  background-image: url("/assets/icons/menu.png");
   height: 30px;
   width: 30px;
   background-size: cover;

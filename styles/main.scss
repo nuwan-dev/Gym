@@ -99,7 +99,7 @@ $blue: #097FD9;
             background-size: cover;
             cursor: pointer;
             display: block;
-            transition: 2s ease-in-out;
+            transition: 0.5s ease-in-out;
         }
     }
 
@@ -109,7 +109,7 @@ $blue: #097FD9;
         left: 0;
         margin: auto;
         transform: translateY(-100vh);
-        transition: 0.3s ease-in-out;
+        transition: 0.5s ease-in-out;
         background-color: $background-dark;
         z-index: 99;
         padding-bottom: 50px;

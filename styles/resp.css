@@ -6,6 +6,32 @@
   .gym-mb-top-nav-container {
     display: block;
   }
+  .gym-hero-container .hero {
+    padding: 5%;
+    padding-top: 100px;
+  }
+  .gym-hero-container .hero .hero-1 {
+    flex-direction: column;
+  }
+  .gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns {
+    column-gap: 10px;
+  }
+  .gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn {
+    padding: 11px 15px;
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+  }
+  .gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn-play {
+    text-align: left;
+  }
+  .gym-hero-container .hero .hero-1 .hero-1-2 {
+    margin-top: 32px;
+  }
+  .gym-hero-container .hero .hero-1 .hero-1-2 img {
+    width: 100%;
+    left: 0;
+  }
 }
 
 /*# sourceMappingURL=resp.css.map */

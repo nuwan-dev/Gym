@@ -25,6 +25,7 @@ html {
 .gym-top-nav-container {
     width: 100%;
     background-color: $background-dark;
+    z-index: 999;
 
     .top-nav {
         display: flex;
@@ -93,6 +94,7 @@ html {
     padding: 5%;
     position: fixed;
     display: none;
+    z-index: 999;
 
     .mb-nav-sub {
         display: flex;
@@ -120,7 +122,8 @@ html {
         margin: auto;
         transform: translateY(-100vh);
         transition: 0.5s ease-in-out;
-        background-color: $background-dark;
+        background-color: rgba(9, 7, 7, 0.6);
+        backdrop-filter: blur(6px);
         z-index: 99;
         padding-bottom: 50px;
 
@@ -178,6 +181,11 @@ html {
     .mb-tgl-btn-active {
         background-image: url('/assets/icons/cross.png') !important;
 
+    }
+
+    .mb-nav-scroll {
+        background-color: rgba(9, 7, 7, 0.6) !important;
+        backdrop-filter: blur(6px) !important;
     }
 
 }

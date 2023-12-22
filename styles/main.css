@@ -16,6 +16,7 @@ html {
 .gym-top-nav-container {
   width: 100%;
   background-color: #090707;
+  z-index: 999;
 }
 .gym-top-nav-container .top-nav {
   display: flex;
@@ -73,6 +74,7 @@ html {
   padding: 5%;
   position: fixed;
   display: none;
+  z-index: 999;
 }
 .gym-mb-top-nav-container .mb-nav-sub {
   display: flex;
@@ -97,7 +99,8 @@ html {
   margin: auto;
   transform: translateY(-100vh);
   transition: 0.5s ease-in-out;
-  background-color: #090707;
+  background-color: rgba(9, 7, 7, 0.6);
+  backdrop-filter: blur(6px);
   z-index: 99;
   padding-bottom: 50px;
 }
@@ -143,6 +146,10 @@ html {
 }
 .gym-mb-top-nav-container .mb-tgl-btn-active {
   background-image: url("/assets/icons/cross.png") !important;
+}
+.gym-mb-top-nav-container .mb-nav-scroll {
+  background-color: rgba(9, 7, 7, 0.6) !important;
+  backdrop-filter: blur(6px) !important;
 }
 
 .gym-hero-container {

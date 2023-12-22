@@ -7,7 +7,46 @@
         display: none;
     }
 
+    // mobile top nav container
     .gym-mb-top-nav-container {
         display: block;
+    }
+
+    // hero container
+    .gym-hero-container {
+        .hero {
+            padding: 5%;
+            padding-top: 100px;
+
+            .hero-1 {
+                flex-direction: column;
+
+                .hero-1-1 {
+                    .hero-btns {
+                        column-gap: 10px;
+
+                        .hero-btn {
+                            padding: 11px 15px;
+                            flex: 1;
+                            justify-content: center;
+                            margin: auto;
+                        }
+
+                        .hero-btn-play {
+                            text-align: left;
+                        }
+                    }
+                }
+
+                .hero-1-2 {
+                    margin-top: 32px;
+
+                    img {
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+            }
+        }
     }
 }

@@ -93,7 +93,7 @@ $blue: #097FD9;
 
         .mb-tp-nav-tgl-btn {
             // background-image: url('./assets/icons/menu.png');
-            background-image: url('assets/icons/menu.png');
+            background-image: url('/assets/icons/menu.png');
             height: 30px;
             width: 30px;
             background-size: cover;
@@ -166,7 +166,7 @@ $blue: #097FD9;
     }
 
     .mb-tgl-btn-active {
-        background-image: url('./assets/icons/cross.png') !important;
+        background-image: url('/assets/icons/cross.png') !important;
 
     }
 

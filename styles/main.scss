@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// styles
+$Urbanist: 'Urbanist', sans-serif;
 $poppins: 'Poppins', sans-serif;
 $background-dark: #090707;
 $blue: #097FD9;
+$max-width: 1200px;
 
 *,
 ::after,
@@ -9,6 +14,11 @@ $blue: #097FD9;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: $background-dark;
 }
 
 // dekstop top nav container
@@ -172,4 +182,118 @@ $blue: #097FD9;
 
 }
 
-// 
+// hero container
+.gym-hero-container {
+    width: 100%;
+    background-color: $background-dark;
+
+    .hero {
+        max-width: $max-width;
+        margin: auto;
+        padding-top: 25px;
+        position: relative;
+
+        .hero-1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .hero-1-1 {
+                h1 {
+                    color: #fff;
+                    font-family: $Urbanist;
+                    font-size: 64px;
+                    font-weight: 700;
+                }
+
+                h3 {
+                    color: rgba(255, 255, 255, 0.50);
+                    font-family: $poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: 12px;
+                }
+
+                .hero-btns {
+                    display: flex;
+                    margin-top: 32px;
+                    column-gap: 32px;
+
+                    .hero-btn {
+                        color: #fff;
+                        font-family: $poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-align: center;
+                        padding: 11px 28px;
+                        text-decoration: none;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .hero-btn-start {
+                        background-color: $blue;
+                    }
+
+                    .hero-btn-play {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+
+            .hero-1-2 {
+                display: flex;
+                align-items: flex-start;
+                position: relative;
+
+                >img {
+                    position: relative;
+                    left: 100px;
+                    z-index: 3;
+                }
+
+                .hero-1-2-img-sub {
+                    display: inherit;
+                    flex-direction: column;
+                    row-gap: 24px;
+
+                    img {
+                        width: 127px;
+                        height: auto;
+                    }
+
+                    h5 {
+                        color: #fff;
+                        font-family: $Urbanist;
+                        font-size: 18px;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
+
+        .hero-2 {
+            position: absolute;
+            top: 175px;
+            right: 308px;
+            z-index: 1;
+
+            h2 {
+                color: rgba(255, 255, 255, 0.11);
+                display: inline-block;
+                font-family: $Urbanist;
+                font-size: 142px;
+                font-weight: 900;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+}

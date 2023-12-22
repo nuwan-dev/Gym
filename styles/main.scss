@@ -92,11 +92,13 @@ $blue: #097FD9;
         z-index: 999;
 
         .mb-tp-nav-tgl-btn {
-            background-image: url('/assets/icons/menu.png') !important;
-            height: 40px;
-            width: 40px;
+            background-image: url('/assets/icons/menu.png');
+            height: 30px;
+            width: 30px;
             background-size: cover;
             cursor: pointer;
+            display: block;
+            transition: 2s ease-in-out;
         }
     }
 
@@ -106,7 +108,7 @@ $blue: #097FD9;
         left: 0;
         margin: auto;
         transform: translateY(-100vh);
-        transition: 0.5s ease-in-out;
+        transition: 0.3s ease-in-out;
         background-color: $background-dark;
         z-index: 99;
         padding-bottom: 50px;
@@ -160,6 +162,11 @@ $blue: #097FD9;
 
     .mb-nav-active {
         transform: translateY(0)
+    }
+
+    .mb-tgl-btn-active {
+        background-image: url('/assets/icons/cross.png') !important;
+        
     }
 
 }

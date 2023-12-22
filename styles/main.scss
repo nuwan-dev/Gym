@@ -11,6 +11,7 @@ $blue: #097FD9;
     box-sizing: border-box;
 }
 
+// dekstop top nav container
 .gym-top-nav-container {
     width: 100%;
     background-color: $background-dark;
@@ -32,6 +33,7 @@ $blue: #097FD9;
 
                 li {
                     display: inline;
+                    list-style: none;
 
                     a {
                         text-decoration: none;
@@ -72,4 +74,65 @@ $blue: #097FD9;
             }
         }
     }
+}
+
+// mobile top nav container
+.gym-mb-top-nav-container {
+    width: 100%;
+    background-color: $background-dark;
+    padding: 5%;
+    position: fixed;
+
+    .mb-nav-sub {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 999;
+
+        .mb-tp-nav-tgl-btn {
+            background-image: url('/assets/icons/menu.png');
+            height: 40px;
+            width: 40px;
+            background-size: cover;
+            cursor: pointer;
+        }
+    }
+
+    .mb-nav {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        transform: translateY(-100vh);
+        transition: 0.5s ease-in-out;
+        background-color: $background-dark;
+        z-index: 99;
+        padding-bottom: 50px;
+
+        ul {
+            li {
+                text-align: center;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    font-family: $poppins;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+
+            li:not(:last-child) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .mb-nav-active {
+        transform: translateY(0)
+    }
+
 }

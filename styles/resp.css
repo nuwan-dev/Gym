@@ -3,6 +3,9 @@
   .gym-top-nav-container {
     display: none;
   }
+  .gym-mb-top-nav-container {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=resp.css.map */

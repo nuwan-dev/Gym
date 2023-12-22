@@ -54,7 +54,7 @@
   padding: 11px 28px;
 }
 .gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns .top-nav-btn-log {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 .gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns .top-nav-btn-reg {
   background-color: #097FD9;
@@ -66,6 +66,7 @@
   background-color: #090707;
   padding: 5%;
   position: fixed;
+  display: none;
 }
 .gym-mb-top-nav-container .mb-nav-sub {
   display: flex;
@@ -106,6 +107,28 @@
 }
 .gym-mb-top-nav-container .mb-nav ul li:not(:last-child) {
   margin-bottom: 12px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns {
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 11px 28px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn-log {
+  border: 2px solid #fff;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn-reg {
+  background-color: #097FD9;
+  font-weight: 600;
 }
 .gym-mb-top-nav-container .mb-nav-active {
   transform: translateY(0);

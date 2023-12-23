@@ -92,7 +92,7 @@ html {
     width: 100%;
     background-color: $background-dark;
     padding: 5%;
-    position: fixed;
+    position: fixed !important;
     display: none;
     z-index: 999;
 
@@ -389,14 +389,6 @@ html {
             background-color: $blue;
             border-color: $blue;
         }
-
-        
-
-
-
-
-
-        
 
         .exp-slide {
             border-radius: 12px;

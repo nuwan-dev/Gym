@@ -56,10 +56,10 @@ $(".exp-slider").slick({
 const expSlides = document.querySelectorAll(".exp-slide");
 expSlides.forEach((el) => {
   el.addEventListener("touchstart", () => {
-    el.classList.add("exp-slide-hover");
+    el.classList.add("exp-slide-touch");
   });
 
   el.addEventListener("touchend", () => {
-    el.classList.remove("exp-slide-hover");
+    el.classList.remove("exp-slide-touch");
   });
 });

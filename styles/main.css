@@ -340,7 +340,7 @@ html {
   font-weight: 400;
 }
 .gym-exp-container .exp-slider .exp-slide:hover,
-.gym-exp-container .exp-slider .exp-slide-hover {
+.gym-exp-container .exp-slider .exp-slide-touch {
   background-color: #097FD9 !important;
 }
 .gym-exp-container .exp-slider .exp-slide:not(:last-child) {

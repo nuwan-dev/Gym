@@ -203,10 +203,14 @@ html {
 
         .hero-1 {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
+            position: relative;
 
             .hero-1-1 {
+                position: relative;
+                top: 125px;
+
                 h1 {
                     color: #fff;
                     font-family: $Urbanist;

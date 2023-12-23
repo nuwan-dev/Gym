@@ -20,8 +20,11 @@
 
             .hero-1 {
                 flex-direction: column;
+                z-index: 3;
 
                 .hero-1-1 {
+                    top: 0 !important;
+
                     .hero-btns {
                         column-gap: 10px;
 
@@ -46,6 +49,11 @@
                         left: 0;
                     }
                 }
+            }
+
+            .hero-2 {
+                top: 550px;
+                right: 0;
             }
         }
     }

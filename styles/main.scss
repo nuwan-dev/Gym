@@ -366,7 +366,8 @@ html {
             right: 128px;
         }
 
-        .slick-prev::before, .slick-next::before {
+        .slick-prev::before,
+        .slick-next::before {
             // font-size: 40px !important;
             border: 2px solid #fff;
             border-radius: 50%;
@@ -385,7 +386,8 @@ html {
             content: url('/assets/icons/right-arrow.svg') !important;
         }
 
-        .slick-prev:hover::before, .slick-next:hover::before {
+        .slick-prev:hover::before,
+        .slick-next:hover::before {
             background-color: $blue;
             border-color: $blue;
         }
@@ -411,7 +413,8 @@ html {
             }
         }
 
-        .exp-slide:hover {
+        .exp-slide:hover,
+        .exp-slide-hover {
             background-color: $blue !important;
         }
 
@@ -420,4 +423,3 @@ html {
         }
     }
 }
-

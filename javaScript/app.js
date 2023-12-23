@@ -53,4 +53,13 @@ $(".exp-slider").slick({
 });
 
 // mobile slider icon touch color change
-const expSlide = document.querySelectorAll(".")
+const expSlides = document.querySelectorAll(".exp-slide");
+expSlides.forEach((el) => {
+  el.addEventListener("touchstart", () => {
+    el.classList.add("exp-slide-hover");
+  });
+
+  el.addEventListener("touchend", () => {
+    el.classList.remove("exp-slide-hover");
+  });
+});

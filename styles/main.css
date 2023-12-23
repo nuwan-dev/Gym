@@ -299,7 +299,8 @@ html {
   top: -105px;
   right: 128px;
 }
-.gym-exp-container .exp-slider .slick-prev::before, .gym-exp-container .exp-slider .slick-next::before {
+.gym-exp-container .exp-slider .slick-prev::before,
+.gym-exp-container .exp-slider .slick-next::before {
   border: 2px solid #fff;
   border-radius: 50%;
   color: transparent;
@@ -315,7 +316,8 @@ html {
 .gym-exp-container .exp-slider .slick-next::before {
   content: url("/assets/icons/right-arrow.svg") !important;
 }
-.gym-exp-container .exp-slider .slick-prev:hover::before, .gym-exp-container .exp-slider .slick-next:hover::before {
+.gym-exp-container .exp-slider .slick-prev:hover::before,
+.gym-exp-container .exp-slider .slick-next:hover::before {
   background-color: #097FD9;
   border-color: #097FD9;
 }
@@ -337,7 +339,8 @@ html {
   font-size: 16px;
   font-weight: 400;
 }
-.gym-exp-container .exp-slider .exp-slide:hover {
+.gym-exp-container .exp-slider .exp-slide:hover,
+.gym-exp-container .exp-slider .exp-slide-hover {
   background-color: #097FD9 !important;
 }
 .gym-exp-container .exp-slider .exp-slide:not(:last-child) {

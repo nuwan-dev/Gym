@@ -309,3 +309,123 @@ html {
     }
 
 }
+
+// explore container
+.gym-exp-container {
+    width: 100%;
+    background-color: $background-dark;
+    position: relative;
+    z-index: 9;
+    top: -215px;
+
+    .exp-h2 {
+        display: inline-block;
+        position: absolute;
+        left: -40px;
+        top: 0;
+
+        >h2 {
+            color: rgba(255, 255, 255, 0.11);
+            font-family: $Urbanist;
+            font-size: 142px;
+            font-weight: 900;
+        }
+    }
+
+    .exp {
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+
+        .exp-sub-1 {
+            position: relative;
+            // left: 10px;
+            top: 90px;
+
+            h2 {
+                color: #fff;
+                font-family: $Urbanist;
+                font-size: 56px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .exp-slider {
+        top: 150px;
+        column-gap: 26px;
+        position: relative;
+
+        .slick-prev {
+            top: -105px;
+            left: 1195px;
+        }
+
+        .slick-next {
+            top: -105px;
+            right: 128px;
+        }
+
+        .slick-prev::before, .slick-next::before {
+            // font-size: 40px !important;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            color: transparent;
+            transition: 0.2s ease-in-out;
+            content: url('/assets/icons/left-arrow.svg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            padding: 20px;
+        }
+
+        .slick-next::before {
+            content: url('/assets/icons/right-arrow.svg') !important;
+        }
+
+        .slick-prev:hover::before, .slick-next:hover::before {
+            background-color: $blue;
+            border-color: $blue;
+        }
+
+        
+
+
+
+
+
+        
+
+        .exp-slide {
+            border-radius: 12px;
+            padding: 40px 24px;
+            background: #0D0D0D;
+            transition: 0.2s ease-in-out;
+
+            h3 {
+                color: #fff;
+                font-family: $poppins;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            p {
+                color: #fff;
+                font-family: $poppins;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        .exp-slide:hover {
+            background-color: $blue !important;
+        }
+
+        .exp-slide:not(:last-child) {
+            margin-right: 26px;
+        }
+    }
+}
+

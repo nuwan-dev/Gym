@@ -57,4 +57,24 @@
             }
         }
     }
+
+    // exp container 
+    .gym-exp-container {
+        padding: 5%;
+        top: 0 !important;
+
+        .exp-h2 {
+            overflow: hidden;
+            transform: rotate(90deg);
+            left: 0;
+            top: 200px;
+        }
+
+        .exp-slider {
+            .slick-prev,
+            .slick-next {
+                display: none;
+            }
+        }
+    }
 }

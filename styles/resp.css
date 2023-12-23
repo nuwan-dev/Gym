@@ -40,6 +40,20 @@
     top: 550px;
     right: 0;
   }
+  .gym-exp-container {
+    padding: 5%;
+    top: 0 !important;
+  }
+  .gym-exp-container .exp-h2 {
+    overflow: hidden;
+    transform: rotate(90deg);
+    left: 0;
+    top: 200px;
+  }
+  .gym-exp-container .exp-slider .slick-prev,
+  .gym-exp-container .exp-slider .slick-next {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=resp.css.map */

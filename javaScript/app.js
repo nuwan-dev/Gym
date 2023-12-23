@@ -1,11 +1,12 @@
 // mobile nav bar
 const tglBtn = document.querySelector(".mb-tp-nav-tgl-btn");
 const mbNav = document.querySelector(".mb-nav");
+const topNav = document.querySelector(".gym-mb-top-nav-container");
+
 tglBtn.addEventListener("click", () => {
   tglBtn.classList.toggle("mb-tgl-btn-active");
   mbNav.classList.toggle("mb-nav-active");
 });
-const topNav = document.querySelector(".gym-mb-top-nav-container");
 window.addEventListener("scroll", () => {
   window.scrollY > 1
     ? topNav.classList.add("mb-nav-scroll")
@@ -35,6 +36,7 @@ $(".exp-slider").slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        arrows: false,
       },
     },
     {
@@ -48,4 +50,7 @@ $(".exp-slider").slick({
     // settings: "unslick"
     // instead of a settings object
   ],
-});  
+});
+
+// mobile slider icon touch color change
+const expSlide = document.querySelectorAll(".")

@@ -62,6 +62,7 @@
   }
   .gym-plan-container .plan {
     padding-top: 175px;
+    padding-bottom: 0;
   }
   .gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
     width: 316px;
@@ -81,6 +82,9 @@
   }
   .gym-plan-container .plan .plan-txt {
     padding-top: 50px;
+  }
+  .gym-enh-container .enh .enh-sub {
+    row-gap: 24px;
   }
 }
 

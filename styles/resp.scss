@@ -91,6 +91,7 @@
 
         .plan {
             padding-top: 175px;
+            padding-bottom: 0;
 
             .plan-gallery {
                 .plan-gallery-img-1 {
@@ -119,5 +120,12 @@
         }
     }
 
-    // enhance container **//
+    // enhance container 
+    .gym-enh-container {
+        .enh {
+            .enh-sub {
+                row-gap: 24px;
+            }
+        }
+    }
 }

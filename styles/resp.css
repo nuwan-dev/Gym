@@ -60,6 +60,25 @@
   .gym-plan-container {
     padding: 5%;
   }
+  .gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
+    width: 316px;
+    height: 167px;
+  }
+  .gym-plan-container .plan .plan-gallery .plan-gallery-img-2 {
+    width: 207px;
+    height: 164px;
+    left: 0;
+    top: -75px;
+  }
+  .gym-plan-container .plan .plan-gallery .plan-gallery-img-3 {
+    width: 212px;
+    height: 140px;
+    top: 200px;
+    left: 100px;
+  }
+  .gym-plan-container .plan .plan-txt {
+    padding-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=resp.css.map */

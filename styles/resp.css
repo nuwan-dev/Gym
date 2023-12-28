@@ -9,6 +9,7 @@
   .gym-hero-container .hero {
     padding: 5%;
     padding-top: 100px;
+    z-index: 99;
   }
   .gym-hero-container .hero .hero-1 {
     flex-direction: column;

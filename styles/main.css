@@ -437,6 +437,9 @@ html {
   font-size: 16px;
   font-weight: 500;
 }
+.gym-plan-container .plan .plan-txt ul li img {
+  margin-right: 16px;
+}
 .gym-plan-container .plan .plan-txt ul li:not(:last-child) {
   margin-bottom: 10px;
 }

@@ -522,6 +522,10 @@ html {
                     font-family: $poppins;
                     font-size: 16px;
                     font-weight: 500;
+
+                    img {
+                        margin-right: 16px;
+                    }
                 }
 
                 li:not(:last-child) {

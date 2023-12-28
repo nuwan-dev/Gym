@@ -387,7 +387,7 @@ html {
 .gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
   width: 441px;
   height: 301px;
-  background-image: url("/assets/images/plan-img-1.jpeg");
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ html {
 .gym-plan-container .plan .plan-gallery .plan-gallery-img-2 {
   width: 307px;
   height: 264px;
-  background-image: url("/assets/images/plan-img-2.jpeg");
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -409,7 +409,7 @@ html {
 .gym-plan-container .plan .plan-gallery .plan-gallery-img-3 {
   width: 312px;
   height: 240px;
-  background-image: url("/assets/images/plan-img-3.jpeg");
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

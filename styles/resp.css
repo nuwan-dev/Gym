@@ -60,6 +60,9 @@
   .gym-plan-container {
     padding: 5%;
   }
+  .gym-plan-container .plan {
+    padding-top: 175px;
+  }
   .gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
     width: 316px;
     height: 167px;

@@ -311,7 +311,7 @@ html {
   border-radius: 50%;
   color: transparent;
   transition: 0.2s ease-in-out;
-  content: url("/assets/icons/left-arrow.svg");
+  content: url("https://nuwan-dev.github.io/Gym/assets/icons/left-arrow.svg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -320,7 +320,7 @@ html {
   padding: 20px;
 }
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-next::before {
-  content: url("/assets/icons/right-arrow.svg") !important;
+  content: url("https://nuwan-dev.github.io/Gym/assets/icons/right-arrow.svg") !important;
 }
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev:hover::before,
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-next:hover::before {

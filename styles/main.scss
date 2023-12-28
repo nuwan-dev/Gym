@@ -378,7 +378,7 @@ html {
                 border-radius: 50%;
                 color: transparent;
                 transition: 0.2s ease-in-out;
-                content: url('/assets/icons/left-arrow.svg');
+                content: url('https://nuwan-dev.github.io/Gym/assets/icons/left-arrow.svg');
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -388,7 +388,7 @@ html {
             }
 
             .slick-next::before {
-                content: url('/assets/icons/right-arrow.svg') !important;
+                content: url('https://nuwan-dev.github.io/Gym/assets/icons/right-arrow.svg') !important;
             }
 
             .slick-prev:hover::before,

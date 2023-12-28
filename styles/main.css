@@ -368,7 +368,8 @@ html {
   width: 100%;
 }
 .gym-plan-container .plan {
-  padding-top: 160px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -425,6 +426,7 @@ html {
 }
 .gym-plan-container .plan .plan-txt ul {
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 .gym-plan-container .plan .plan-txt ul li {
   list-style: none;
@@ -437,6 +439,30 @@ html {
 }
 .gym-plan-container .plan .plan-txt ul li:not(:last-child) {
   margin-bottom: 10px;
+}
+.gym-plan-container .plan .plan-txt ul::after {
+  margin-bottom: 24px !important;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn {
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 28px;
+  text-decoration: none;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn-join {
+  background-color: #097FD9;
+  border: 2px solid #097FD9;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn-contact {
+  border: 2px solid #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

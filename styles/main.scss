@@ -447,7 +447,8 @@ html {
     width: 100%;
 
     .plan {
-        padding-top: 160px;
+        padding-top: 120px;
+        padding-bottom: 120px;
         max-width: 1200px;
         margin: auto;
         display: flex;
@@ -511,6 +512,7 @@ html {
 
             ul {
                 margin-top: 24px;
+                margin-bottom: 24px;
 
                 li {
                     list-style: none;
@@ -524,6 +526,35 @@ html {
 
                 li:not(:last-child) {
                     margin-bottom: 10px;
+                }
+            }
+
+            ul::after {
+                margin-bottom: 24px !important;
+            }
+
+            .plan-txt-btn-grp {
+                display: flex;
+                align-items: center;
+                column-gap: 16px;
+
+                .plan-btn {
+                    border-radius: 10px;
+                    color: #fff;
+                    font-family: $poppins;
+                    font-size: 18px;
+                    font-weight: 600;
+                    padding: 20px 28px;
+                    text-decoration: none;
+                }
+
+                .plan-btn-join {
+                    background-color: $blue;
+                    border: 2px solid $blue;
+                }
+
+                .plan-btn-contact {
+                    border: 2px solid #fff;
                 }
             }
         }

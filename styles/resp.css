@@ -57,6 +57,9 @@
   .gym-exp-container .exp-slider .slick-next {
     display: none !important;
   }
+  .gym-plan-container {
+    padding: 5%;
+  }
 }
 
 /*# sourceMappingURL=resp.css.map */

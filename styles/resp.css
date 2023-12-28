@@ -17,6 +17,9 @@
   .gym-hero-container .hero .hero-1 .hero-1-1 {
     top: 0 !important;
   }
+  .gym-hero-container .hero .hero-1 .hero-1-1 h1 {
+    font-size: 54px;
+  }
   .gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns {
     column-gap: 10px;
   }

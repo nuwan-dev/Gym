@@ -56,6 +56,9 @@
   .gym-exp-container .exp .exp-sub-1 {
     left: 0 !important;
   }
+  .gym-exp-container .exp .exp-sub-1 h2 {
+    font-size: 46px;
+  }
   .gym-exp-container .exp-slider .slick-prev,
   .gym-exp-container .exp-slider .slick-next {
     display: none !important;
@@ -85,6 +88,9 @@
   }
   .gym-plan-container .plan .plan-txt {
     padding-top: 50px;
+  }
+  .gym-plan-container .plan .plan-txt h2 {
+    font-size: 46px;
   }
   .gym-enh-container .enh .enh-sub {
     row-gap: 24px;

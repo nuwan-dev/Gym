@@ -284,6 +284,7 @@ html {
 .gym-exp-container .gym-exp-con-sub .exp .exp-sub-1 {
   position: relative;
   top: 90px;
+  left: 120px;
 }
 .gym-exp-container .gym-exp-con-sub .exp .exp-sub-1 h2 {
   color: #fff;
@@ -298,11 +299,11 @@ html {
 }
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev {
   top: -105px;
-  left: 1195px;
+  left: 1095px;
 }
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-next {
   top: -105px;
-  right: 128px;
+  right: 33px;
 }
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev::before,
 .gym-exp-container .gym-exp-con-sub .exp-slider .slick-next::before {

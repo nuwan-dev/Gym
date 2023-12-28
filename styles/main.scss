@@ -403,6 +403,10 @@ html {
                 background: #0D0D0D;
                 transition: 0.2s ease-in-out;
 
+                .exp-svg path {
+                    fill: $blue;
+                }
+
                 h3 {
                     color: #fff;
                     font-family: $poppins;
@@ -411,7 +415,7 @@ html {
                 }
 
                 p {
-                    color: #fff;
+                    color: rgba(255, 255, 255, 0.5);
                     font-family: $poppins;
                     font-size: 16px;
                     font-weight: 400;
@@ -421,6 +425,14 @@ html {
             .exp-slide:hover,
             .exp-slide-touch {
                 background-color: $blue !important;
+
+                .exp-svg path {
+                    fill: #fff;
+                }
+
+                p {
+                    color: #fff;
+                }
             }
 
             .exp-slide:not(:last-child) {

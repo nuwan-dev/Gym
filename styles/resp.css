@@ -50,6 +50,9 @@
     left: 0;
     top: 200px;
   }
+  .gym-exp-container .exp .exp-sub-1 {
+    left: 0 !important;
+  }
   .gym-exp-container .exp-slider .slick-prev,
   .gym-exp-container .exp-slider .slick-next {
     display: none !important;

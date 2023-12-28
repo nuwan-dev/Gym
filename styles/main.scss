@@ -561,3 +561,44 @@ html {
     }
 
 }
+
+// enhance container 
+.gym-enh-container {
+    width: 100%;
+    padding: 40px;
+
+    .enh {
+        max-width: 1200px;
+        margin: auto;
+
+        .enh-sub {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 40px;
+            background-color: #0D0D0D;
+            border-radius: 16px;
+            column-gap: 145px;
+
+            h2 {
+                color: #fff;
+                font-family: $Urbanist;
+                font-size: 32px;
+                font-weight: 700;
+                flex: 1;
+            }
+
+            a {
+                background-color: $blue;
+                border-radius: 10px;
+                color: #fff;
+                font-family: $poppins;
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 20px 28px;
+            }
+        }
+    }
+}

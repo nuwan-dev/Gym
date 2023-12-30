@@ -608,6 +608,9 @@ html {
     .prc {
         max-width: 1200px;
         margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
         h3 {
             color: $blue;

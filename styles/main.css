@@ -504,6 +504,9 @@ html {
 .gym-prc-container .prc {
   max-width: 1200px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .gym-prc-container .prc h3 {
   color: #097FD9;

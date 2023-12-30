@@ -93,6 +93,9 @@
   .gym-plan-container .plan .plan-txt h2 {
     font-size: 46px;
   }
+  .gym-enh-container {
+    padding: 5%;
+  }
   .gym-enh-container .enh .enh-sub {
     row-gap: 24px;
   }

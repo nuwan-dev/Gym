@@ -142,7 +142,7 @@ html {
   font-weight: 600;
 }
 .gym-mb-top-nav-container .mb-nav-active {
-  transform: translateY(0);
+  transform: translateY(20px);
 }
 .gym-mb-top-nav-container .mb-tgl-btn-active {
   background-image: url("https://nuwan-dev.github.io/Gym/assets/icons/cross.png") !important;

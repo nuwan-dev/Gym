@@ -1201,12 +1201,16 @@ html {
 }
 
 .prc-btn-active {
-  background-color: #090707 !important;
   color: #fff !important;
+}
+
+.prc-btn-slide {
+  background-color: #090707 !important;
   width: 150px;
   height: 46px;
   border-radius: 12px;
   position: absolute;
+  left: 12px;
   z-index: 2;
 }
 

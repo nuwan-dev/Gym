@@ -1,4 +1,546 @@
-@import url();
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #090707;
+}
+
+.gym-top-nav-container {
+  width: 100%;
+  background-color: #090707;
+  z-index: 999;
+}
+.gym-top-nav-container .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+  max-width: 1200px;
+  margin: auto;
+}
+.gym-top-nav-container .top-nav .top-nav-sub {
+  display: inherit;
+  align-items: inherit;
+}
+.gym-top-nav-container .top-nav .top-nav-sub ul {
+  margin-right: 44px;
+}
+.gym-top-nav-container .top-nav .top-nav-sub ul li {
+  display: inline;
+  list-style: none;
+}
+.gym-top-nav-container .top-nav .top-nav-sub ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.gym-top-nav-container .top-nav .top-nav-sub ul li:not(:last-child) {
+  margin-right: 16px;
+}
+.gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns {
+  display: flex;
+  column-gap: 12px;
+}
+.gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns .top-nav-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 11px 28px;
+}
+.gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns .top-nav-btn-log {
+  border: 2px solid #fff;
+}
+.gym-top-nav-container .top-nav .top-nav-sub .top-nav-btns .top-nav-btn-reg {
+  background-color: #097FD9;
+  font-weight: 600;
+}
+
+.gym-mb-top-nav-container {
+  width: 100%;
+  background-color: #090707;
+  padding: 5%;
+  position: fixed !important;
+  display: none;
+  z-index: 999;
+}
+.gym-mb-top-nav-container .mb-nav-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+.gym-mb-top-nav-container .mb-nav-sub .mb-tp-nav-tgl-btn {
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/icons/menu.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  cursor: pointer;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.gym-mb-top-nav-container .mb-nav {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin: auto;
+  transform: translateY(-100vh);
+  transition: 0.5s ease-in-out;
+  background-color: rgba(9, 7, 7, 0.6);
+  backdrop-filter: blur(6px);
+  z-index: 99;
+  padding-bottom: 50px;
+}
+.gym-mb-top-nav-container .mb-nav ul li {
+  text-align: center;
+  list-style: none;
+}
+.gym-mb-top-nav-container .mb-nav ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.gym-mb-top-nav-container .mb-nav ul li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns {
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 11px 28px;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn-log {
+  border: 2px solid #fff;
+}
+.gym-mb-top-nav-container .mb-nav .mb-top-nav-btns .mb-top-nav-btn-reg {
+  background-color: #097FD9;
+  font-weight: 600;
+}
+.gym-mb-top-nav-container .mb-nav-active {
+  transform: translateY(20px);
+}
+.gym-mb-top-nav-container .mb-tgl-btn-active {
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/icons/cross.png") !important;
+}
+
+.gym-hero-container {
+  width: 100%;
+  background-color: #090707;
+}
+.gym-hero-container .hero {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 25px;
+  position: relative;
+}
+.gym-hero-container .hero .hero-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 {
+  position: relative;
+  top: 125px;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 h1 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns {
+  display: flex;
+  margin-top: 32px;
+  column-gap: 32px;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0px 28px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn-start {
+  background-color: #097FD9;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn-play {
+  display: flex;
+  align-items: center;
+}
+.gym-hero-container .hero .hero-1 .hero-1-1 .hero-btns .hero-btn-play img {
+  margin-right: 12px;
+}
+.gym-hero-container .hero .hero-1 .hero-1-2 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.gym-hero-container .hero .hero-1 .hero-1-2 > img {
+  position: relative;
+  left: 100px;
+  z-index: 3;
+}
+.gym-hero-container .hero .hero-1 .hero-1-2 .hero-1-2-img-sub {
+  display: inherit;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.gym-hero-container .hero .hero-1 .hero-1-2 .hero-1-2-img-sub img {
+  width: 127px;
+  height: auto;
+}
+.gym-hero-container .hero .hero-1 .hero-1-2 .hero-1-2-img-sub h5 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.gym-hero-container .hero .hero-2 {
+  position: absolute;
+  top: 175px;
+  right: 308px;
+  z-index: 1;
+}
+.gym-hero-container .hero .hero-2 h2 {
+  color: rgba(255, 255, 255, 0.11);
+  display: inline-block;
+  font-family: "Urbanist", sans-serif;
+  font-size: 142px;
+  font-weight: 900;
+  transform: rotate(-90deg);
+}
+
+.gym-exp-container {
+  width: 100%;
+  background-color: #090707;
+  position: relative;
+  z-index: 9;
+  top: -215px;
+}
+.gym-exp-container .gym-exp-con-sub {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.gym-exp-container .gym-exp-con-sub .exp-h2 {
+  display: inline-block;
+  position: absolute;
+  left: -40px;
+  top: 0;
+}
+.gym-exp-container .gym-exp-con-sub .exp-h2 > h2 {
+  color: rgba(255, 255, 255, 0.11);
+  font-family: "Urbanist", sans-serif;
+  font-size: 142px;
+  font-weight: 900;
+}
+.gym-exp-container .gym-exp-con-sub .exp {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.gym-exp-container .gym-exp-con-sub .exp .exp-sub-1 {
+  position: relative;
+  top: 90px;
+  left: 120px;
+}
+.gym-exp-container .gym-exp-con-sub .exp .exp-sub-1 h2 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider {
+  top: 150px;
+  column-gap: 26px;
+  position: relative;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev {
+  top: -105px;
+  left: 1095px;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-next {
+  top: -105px;
+  right: 33px;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev::before,
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-next::before {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: transparent;
+  transition: 0.2s ease-in-out;
+  content: url("https://nuwan-dev.github.io/Gym/assets/icons/left-arrow.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-next::before {
+  content: url("https://nuwan-dev.github.io/Gym/assets/icons/right-arrow.svg") !important;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-prev:hover::before,
+.gym-exp-container .gym-exp-con-sub .exp-slider .slick-next:hover::before {
+  background-color: #097FD9;
+  border-color: #097FD9;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide {
+  border-radius: 12px;
+  padding: 40px 24px;
+  background: #0D0D0D;
+  transition: 0.2s ease-in-out;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide .exp-svg path {
+  fill: #097FD9;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide:hover,
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide-touch {
+  background-color: #097FD9 !important;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide:hover .exp-svg path,
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide-touch .exp-svg path {
+  fill: #fff;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide:hover p,
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide-touch p {
+  color: #fff;
+}
+.gym-exp-container .gym-exp-con-sub .exp-slider .exp-slide:not(:last-child) {
+  margin-right: 26px;
+}
+
+.gym-plan-container {
+  width: 100%;
+}
+.gym-plan-container .plan {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 100px;
+}
+.gym-plan-container .plan .plan-gallery {
+  position: relative;
+}
+.gym-plan-container .plan .plan-gallery .plan-gallery-img {
+  border-radius: 12px;
+}
+.gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
+  width: 441px;
+  height: 301px;
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.gym-plan-container .plan .plan-gallery .plan-gallery-img-2 {
+  width: 307px;
+  height: 264px;
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  top: -108px;
+  left: 286px;
+}
+.gym-plan-container .plan .plan-gallery .plan-gallery-img-3 {
+  width: 312px;
+  height: 240px;
+  background-image: url("https://nuwan-dev.github.io/Gym/assets/images/plan-img-3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 3;
+  top: 328px;
+  left: 127px;
+}
+.gym-plan-container .plan .plan-txt h2 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+.gym-plan-container .plan .plan-txt ul {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.gym-plan-container .plan .plan-txt ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.gym-plan-container .plan .plan-txt ul li img {
+  margin-right: 16px;
+}
+.gym-plan-container .plan .plan-txt ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.gym-plan-container .plan .plan-txt ul::after {
+  margin-bottom: 24px !important;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn {
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 28px;
+  text-decoration: none;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn-join {
+  background-color: #097FD9;
+  border: 2px solid #097FD9;
+}
+.gym-plan-container .plan .plan-txt .plan-txt-btn-grp .plan-btn-contact {
+  border: 2px solid #fff;
+}
+
+.gym-enh-container {
+  width: 100%;
+  padding: 40px;
+}
+.gym-enh-container .enh {
+  max-width: 1200px;
+  margin: auto;
+}
+.gym-enh-container .enh .enh-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px;
+  background-color: #0D0D0D;
+  border-radius: 16px;
+  column-gap: 145px;
+}
+.gym-enh-container .enh .enh-sub h2 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  flex: 1;
+}
+.gym-enh-container .enh .enh-sub a {
+  background-color: #097FD9;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px 28px;
+}
+
+.gym-prc-container .prc {
+  max-width: 1200px;
+  margin: auto;
+}
+.gym-prc-container .prc h3 {
+  color: #097FD9;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.gym-prc-container .prc h2 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.gym-prc-container .prc .prc-dur-switch {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 8px 12px;
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin: auto;
+}
+.gym-prc-container .prc .prc-dur-switch .prc-btn {
+  padding: 11px 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(9, 7, 7, 0.6);
+}
+
 @media screen and (max-width: 840px) {
   .gym-top-nav-container {
     display: none;

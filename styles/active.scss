@@ -1,5 +1,13 @@
+@import 'main', 'resp';
+
 // mobile nav scroll color change
 .mb-nav-scroll {
     background-color: rgba(9, 7, 7, 0.6) !important;
     backdrop-filter: blur(6px) !important;
+}
+
+// price active button
+.prc-btn-active {
+    background-color: $background-dark;
+    color: #fff;
 }

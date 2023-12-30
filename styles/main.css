@@ -501,4 +501,44 @@ html {
   padding: 20px 28px;
 }
 
+.gym-prc-container .prc {
+  max-width: 1200px;
+  margin: auto;
+}
+.gym-prc-container .prc h3 {
+  color: #097FD9;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.gym-prc-container .prc h2 {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.gym-prc-container .prc .prc-dur-switch {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 8px 12px;
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin: auto;
+}
+.gym-prc-container .prc .prc-dur-switch .prc-btn {
+  padding: 11px 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(9, 7, 7, 0.6);
+}
+
 /*# sourceMappingURL=main.css.map */

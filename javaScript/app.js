@@ -69,3 +69,11 @@ expSlides.forEach((el) => {
     el.classList.remove("exp-slide-touch");
   });
 });
+
+// price active button
+const prcBtns = document.querySelectorAll(".prc-btn");
+prcBtns.forEach((el) => {
+  el.addEventListener("click", () => {
+    el.classList.add("prc-btn-active");
+  });
+});

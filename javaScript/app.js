@@ -81,3 +81,22 @@ expSlides.forEach((el) => {
 //     el.classList.add("prc-btn-active");
 //   });
 // });
+
+const prcY = document.querySelector(".prc-y");
+const prcM = document.querySelector(".prc-m");
+const prcS = document.querySelector(".prc-btn-slide");
+prcY.addEventListener("click", () => {
+  if (prcM.classList.contains("prc-btn-active")) {
+    prcM.classList.remove("prc-btn-active");
+    prcY.classList.add("prc-btn-active");
+    prcS.classList.add("prc-active-slide");
+  }
+});
+
+prcM.addEventListener("click", () => {
+  if (prcY.classList.contains("prc-btn-active")) {
+    prcY.classList.remove("prc-btn-active");
+    prcM.classList.add("prc-btn-active");
+    prcS.classList.remove("prc-active-slide");
+  }
+});

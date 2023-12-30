@@ -1,5 +1,5 @@
 @import url();
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 840px) {
   .gym-top-nav-container {
     display: none;
   }

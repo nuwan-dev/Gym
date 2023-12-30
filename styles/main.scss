@@ -637,6 +637,7 @@ html {
             justify-content: center;
             column-gap: 16px;
             margin: auto;
+            position: relative;
 
             .prc-btn {
                 padding: 11px 24px;
@@ -648,6 +649,7 @@ html {
                 font-size: 16px;
                 font-weight: 500;
                 color: rgba(9, 7, 7, 0.60);
+                z-index: 3;
             }
         }
     }

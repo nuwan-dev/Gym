@@ -71,9 +71,13 @@ expSlides.forEach((el) => {
 });
 
 // price active button
-const prcBtns = document.querySelectorAll(".prc-btn");
-prcBtns.forEach((el) => {
-  el.addEventListener("click", () => {
-    el.classList.add("prc-btn-active");
-  });
-});
+// const prcBtns = document.querySelectorAll(".prc-btn");
+// prcBtns.forEach((el) => {
+//   el.addEventListener("click", () => {
+//     el.classList.add("prc-btn-active");
+//   });
+
+//   el.addEventListener("mouseover", () => {
+//     el.classList.add("prc-btn-active");
+//   });
+// });

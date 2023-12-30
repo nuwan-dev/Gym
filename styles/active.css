@@ -533,6 +533,7 @@ html {
   justify-content: center;
   column-gap: 16px;
   margin: auto;
+  position: relative;
 }
 .gym-prc-container .prc .prc-dur-switch .prc-btn {
   padding: 11px 24px;
@@ -544,6 +545,7 @@ html {
   font-size: 16px;
   font-weight: 500;
   color: rgba(9, 7, 7, 0.6);
+  z-index: 3;
 }
 
 *,
@@ -1077,6 +1079,7 @@ html {
   justify-content: center;
   column-gap: 16px;
   margin: auto;
+  position: relative;
 }
 .gym-prc-container .prc .prc-dur-switch .prc-btn {
   padding: 11px 24px;
@@ -1088,6 +1091,7 @@ html {
   font-size: 16px;
   font-weight: 500;
   color: rgba(9, 7, 7, 0.6);
+  z-index: 3;
 }
 
 @media screen and (max-width: 840px) {
@@ -1197,8 +1201,13 @@ html {
 }
 
 .prc-btn-active {
-  background-color: #090707;
-  color: #fff;
+  background-color: #090707 !important;
+  color: #fff !important;
+  width: 150px;
+  height: 46px;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=active.css.map */

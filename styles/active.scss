@@ -8,6 +8,11 @@
 
 // price active button
 .prc-btn-active {
-    background-color: $background-dark;
-    color: #fff;
+    background-color: $background-dark !important;
+    color: #fff !important;
+    width: 150px;
+    height: 46px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 2;
 }

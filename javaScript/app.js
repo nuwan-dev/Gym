@@ -70,18 +70,6 @@ expSlides.forEach((el) => {
   });
 });
 
-// price active button
-// const prcBtns = document.querySelectorAll(".prc-btn");
-// prcBtns.forEach((el) => {
-//   el.addEventListener("click", () => {
-//     el.classList.add("prc-btn-active");
-//   });
-
-//   el.addEventListener("mouseover", () => {
-//     el.classList.add("prc-btn-active");
-//   });
-// });
-
 const prcY = document.querySelector(".prc-y");
 const prcM = document.querySelector(".prc-m");
 const prcS = document.querySelector(".prc-btn-slide");
@@ -90,6 +78,7 @@ prcY.addEventListener("click", () => {
     prcM.classList.remove("prc-btn-active");
     prcY.classList.add("prc-btn-active");
     prcS.classList.add("prc-active-slide");
+    prcPack1.innerHTML = "$250";
   }
 });
 
@@ -98,5 +87,6 @@ prcM.addEventListener("click", () => {
     prcY.classList.remove("prc-btn-active");
     prcM.classList.add("prc-btn-active");
     prcS.classList.remove("prc-active-slide");
+    prcPack1.innerHTML = "$25";
   }
 });

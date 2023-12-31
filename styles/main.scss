@@ -605,12 +605,15 @@ html {
 
 // pricing container
 .gym-prc-container {
+    width: 100%;
+
     .prc {
         max-width: 1200px;
         margin: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding: 80px 0;
 
         h3 {
             color: $blue;
@@ -638,6 +641,7 @@ html {
             column-gap: 16px;
             margin: auto;
             position: relative;
+            margin-top: 32px;
 
             .prc-btn {
                 padding: 11px 24px;
@@ -651,6 +655,19 @@ html {
                 color: rgba(9, 7, 7, 0.60);
                 z-index: 3;
             }
+        }
+
+        .prc-packs {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .prc-pack {
+                background-color: #0D0D0D;
+                border-radius: 16px;
+            }
+
+            
         }
     }
 }

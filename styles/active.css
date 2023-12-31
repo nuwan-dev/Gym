@@ -560,6 +560,19 @@ html {
 .gym-prc-container .prc .prc-packs .prc-pack {
   background-color: #0D0D0D;
   border-radius: 16px;
+  padding: 24px 28px;
+  text-align: left;
+}
+.gym-prc-container .prc .prc-packs h4 {
+  color: #097FD9;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.gym-prc-container .prc .prc-packs h2 {
+  color: #fff;
 }
 
 *,
@@ -1120,6 +1133,19 @@ html {
 .gym-prc-container .prc .prc-packs .prc-pack {
   background-color: #0D0D0D;
   border-radius: 16px;
+  padding: 24px 28px;
+  text-align: left;
+}
+.gym-prc-container .prc .prc-packs h4 {
+  color: #097FD9;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.gym-prc-container .prc .prc-packs h2 {
+  color: #fff;
 }
 
 @media screen and (max-width: 840px) {

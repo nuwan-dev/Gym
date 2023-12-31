@@ -665,9 +665,22 @@ html {
             .prc-pack {
                 background-color: #0D0D0D;
                 border-radius: 16px;
+                padding: 24px 28px;
+                text-align: left;
             }
 
-            
+            h4 {
+                color: $blue;
+                font-family: $Urbanist;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: left;
+                margin-bottom: 24px;
+            }
+
+            h2 {
+                color: #fff;
+            }
         }
     }
 }

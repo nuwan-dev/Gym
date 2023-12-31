@@ -73,6 +73,7 @@ expSlides.forEach((el) => {
 const prcY = document.querySelector(".prc-y");
 const prcM = document.querySelector(".prc-m");
 const prcS = document.querySelector(".prc-btn-slide");
+const prcPack1 = document.querySelector(".prc-pack-1-prc");
 prcY.addEventListener("click", () => {
   if (prcM.classList.contains("prc-btn-active")) {
     prcM.classList.remove("prc-btn-active");

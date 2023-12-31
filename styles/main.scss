@@ -694,6 +694,30 @@ html {
                     text-align: left;
                     margin-bottom: 24px;
                 }
+
+                ul {
+                    margin-bottom: 38px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+
+                        svg {
+                            margin-right: 16px;
+                        }
+
+                        p {
+                            color: #fff;
+                            font-family: $poppins;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    li:not(:last-child) {
+                        margin-bottom: 16px;
+                    }
+                }
             }
         }
     }

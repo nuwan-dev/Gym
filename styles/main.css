@@ -561,7 +561,7 @@ html {
   padding: 24px 28px;
   text-align: left;
 }
-.gym-prc-container .prc .prc-packs h4 {
+.gym-prc-container .prc .prc-packs .prc-pack h4 {
   color: #097FD9;
   font-family: "Urbanist", sans-serif;
   font-size: 20px;
@@ -569,8 +569,21 @@ html {
   text-align: left;
   margin-bottom: 24px;
 }
-.gym-prc-container .prc .prc-packs h2 {
+.gym-prc-container .prc .prc-packs .prc-pack h2 {
   color: #fff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.gym-prc-container .prc .prc-packs .prc-pack > p {
+  color: #878787;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=main.css.map */

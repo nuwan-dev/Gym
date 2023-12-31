@@ -667,19 +667,33 @@ html {
                 border-radius: 16px;
                 padding: 24px 28px;
                 text-align: left;
-            }
 
-            h4 {
-                color: $blue;
-                font-family: $Urbanist;
-                font-size: 20px;
-                font-weight: 600;
-                text-align: left;
-                margin-bottom: 24px;
-            }
+                h4 {
+                    color: $blue;
+                    font-family: $Urbanist;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: left;
+                    margin-bottom: 24px;
+                }
 
-            h2 {
-                color: #fff;
+                h2 {
+                    color: #fff;
+                    font-family: $Urbanist;
+                    font-size: 56px;
+                    font-weight: 600;
+                    margin-bottom: 24px;
+                    text-align: left;
+                }
+
+                >p {
+                    color: #878787;
+                    font-family: $poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    margin-bottom: 24px;
+                }
             }
         }
     }

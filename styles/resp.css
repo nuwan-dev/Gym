@@ -672,6 +672,9 @@ html {
   .gym-exp-container .exp-slider .slick-next {
     display: none !important;
   }
+  .gym-exp-container .exp-slider .exp-slide {
+    margin-right: 0 !important;
+  }
   .gym-plan-container {
     padding: 5%;
   }

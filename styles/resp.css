@@ -641,6 +641,7 @@ html {
   }
   .gym-hero-container .hero .hero-1 .hero-1-2 {
     margin-top: 32px;
+    flex-wrap: wrap;
   }
   .gym-hero-container .hero .hero-1 .hero-1-2 img {
     width: 100%;

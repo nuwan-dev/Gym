@@ -154,18 +154,12 @@
 
 @media screen and (max-width: 335px) {
 
-    .gym-prc-container {
-        .prc {
-            .prc-dur-switch {
-                .prc-btn-slide {
-                    width: 43%;
-                    height: 73% !important;
-                }
+    .prc-btn-slide {
+        width: 43% !important;
+        height: 73% !important;
+    }
 
-                .prc-active-slide {
-                    left: 53%;
-                }
-            }
-        }
+    .prc-active-slide {
+        left: 53% !important;
     }
 }

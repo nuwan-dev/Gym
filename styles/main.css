@@ -537,6 +537,7 @@ html {
   margin: auto;
   position: relative;
   margin-top: 32px;
+  align-items: center;
 }
 .gym-prc-container .prc .prc-dur-switch .prc-btn {
   padding: 11px 24px;

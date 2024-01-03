@@ -539,6 +539,7 @@ html {
   margin: auto;
   position: relative;
   margin-top: 32px;
+  align-items: center;
 }
 .gym-prc-container .prc .prc-dur-switch .prc-btn {
   padding: 11px 24px;
@@ -1145,6 +1146,7 @@ html {
   margin: auto;
   position: relative;
   margin-top: 32px;
+  align-items: center;
 }
 .gym-prc-container .prc .prc-dur-switch .prc-btn {
   padding: 11px 24px;
@@ -1321,12 +1323,12 @@ html {
   }
 }
 @media screen and (max-width: 335px) {
-  .gym-prc-container .prc .prc-dur-switch .prc-btn-slide {
-    width: 43%;
+  .prc-btn-slide {
+    width: 43% !important;
     height: 73% !important;
   }
-  .gym-prc-container .prc .prc-dur-switch .prc-active-slide {
-    left: 53%;
+  .prc-active-slide {
+    left: 53% !important;
   }
 }
 .mb-nav-scroll {

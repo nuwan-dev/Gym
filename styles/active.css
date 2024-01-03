@@ -1353,14 +1353,4 @@ html {
   left: 178px;
 }
 
-@media screen and (max-width: 335px) {
-  .gym-prc-container .prc .prc-dur-switch .prc-btn-slide {
-    width: 43%;
-    height: 73% !important;
-  }
-  .gym-prc-container .prc .prc-dur-switch .prc-active-slide {
-    left: 53%;
-  }
-}
-
 /*# sourceMappingURL=active.css.map */

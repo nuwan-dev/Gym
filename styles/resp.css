@@ -681,6 +681,7 @@ html {
   .gym-plan-container .plan {
     padding-top: 175px;
     padding-bottom: 0;
+    justify-content: center !important;
   }
   .gym-plan-container .plan .plan-gallery .plan-gallery-img-1 {
     width: 316px;
@@ -709,6 +710,15 @@ html {
   }
   .gym-enh-container .enh .enh-sub {
     row-gap: 24px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .gym-prc-container .prc .prc-dur-switch .prc-btn-slide {
+    width: 43%;
+    height: 73% !important;
+  }
+  .gym-prc-container .prc .prc-dur-switch .prc-active-slide {
+    left: 53%;
   }
 }
 

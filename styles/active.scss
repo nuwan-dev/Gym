@@ -14,7 +14,9 @@
 .prc-btn-slide {
     background-color: $background-dark !important;
     width: 150px;
+    // width: 43%;
     height: 46px;
+    // height: 73%;
     border-radius: 12px;
     position: absolute;
     left: 12px;
@@ -24,4 +26,20 @@
 
 .prc-active-slide {
     left: 178px;
+    // left: 53%;
+}
+
+@media screen and (max-width: 335px) {
+    .gym-prc-container {
+        .prc .prc-dur-switch {
+            .prc-btn-slide {
+                width: 43%;
+                height: 73% !important;
+            }
+
+            .prc-active-slide {
+                left: 53%;
+            }
+        }
+    }   
 }

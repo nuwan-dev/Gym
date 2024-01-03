@@ -106,6 +106,7 @@
         .plan {
             padding-top: 175px;
             padding-bottom: 0;
+            justify-content: center !important;
 
             .plan-gallery {
                 .plan-gallery-img-1 {
@@ -148,4 +149,21 @@
             }
         }
     }
+}
+
+
+@media screen and (max-width: 335px) {
+
+    .gym-prc-container {
+        .prc .prc-dur-switch {
+            .prc-btn-slide {
+                width: 43%;
+                height: 73% !important;
+            }
+
+            .prc-active-slide {
+                left: 53%;
+            }
+        }
+    }   
 }

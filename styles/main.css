@@ -554,6 +554,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .gym-prc-container .prc .prc-packs .prc-pack {
   background-color: #0D0D0D;
